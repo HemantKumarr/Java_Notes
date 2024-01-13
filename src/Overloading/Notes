@@ -1,0 +1,11 @@
+Method Overloading
+1. Method Overloading - two or more methods within the same class that share the same name, as long as their parameter declarations are different.
+   Method overloading is one of the ways that Java supports polymorphism.
+2. Java uses the type and/or number of arguments as its guide to determine which version of the overloaded method to actually call.
+   While overloaded methods may have different return types, the return type alone is insufficient to distinguish two versions of a method.
+3. Method overloading supports polymorphism because it is one way that Java implements
+   the “one interface, multiple methods” paradigm.
+
+Call-by-value vs Call-by-reference
+When you pass a primitive type to a method, it is passed by value. Thus, a copy of the argument is made, and what occurs to the parameter that receives the argument has no effect outside the method.
+When you pass an object to a method, they are passed by what is effectively call-by-reference. Changes to the object inside the method do affect the object used as an argument.
