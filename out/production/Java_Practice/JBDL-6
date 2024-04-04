@@ -1,0 +1,32 @@
+Multithreading
+Use synchronized keyword
+Remember, once a thread enters any synchronized method on an instance, no other thread can enter any other synchronized method on the same instance.
+
+Every object has a monitor associated with it. When a thread enters a synchronized block or method it acquires the monitor.
+While a thread is inside a synchronized method, all other threads that try to call it (or any other synchronized method) on the same instance have to wait. To exit
+the monitor and relinquish control of the object to the next waiting thread, the owner of the monitor simply returns from the synchronized method.
+However, non-synchronized methods on that instance will continue to be callable.
+
+In synchronized block it is mandatory to the parameter based on which the synchronization will occur.
+In MainTest class thread t1 and t2 are executed parallely since they both referring to different School instance but t1(sch) and t3(sch1) are executed one after another
+because they both are referring to same School instance(sch) so it is possible that one thread can modify the value of instance.
+
+Synchronized block
+Once a thread enters any synchronized method on an instance, no other thread can enter any other synchronized method on the same instance. This is a very
+expensive operation. Locks avoid this by allowing the configuration of various locks for different purpose. One can have couple of methods synchronized
+under one lock and other methods under a different lock. This allows more concurrency and also increases overall performance.
+
+volatile - The volatile modifier tells the compiler that the variable modified by volatile can be changed unexpectedly by other parts of your program. One of these situations involves
+multithreaded programs. In a multithreaded program, sometimes two or more threads share the same variable. For efficiency considerations, each thread can keep its own, private
+copy of such a shared variable. The real (or master) copy of the variable is updated at various times, such as when a synchronized method is entered. While this approach works
+fine, it may be inefficient at times. In some cases, all that really matters is that the master copy of a variable always reflects its current state. To ensure this, simply specify the variable
+as volatile, which tells the compiler that it must always use the master copy of a volatile variable (or, at least, always keep any private copies up-to-date with the master copy, and
+vice versa). Also, accesses to the master variable must be executed in the precise order in which they are executed on any private copy.
+
+Volatile is only valid for variables (works based on local copy) and synchronized is valid with block and method(works with lock concept).
+
+Banking - statement generation using multithreading
+
+join() - allows one thread to wait until another thread completes its execution.
+In ThreadJoinMainClass,
+

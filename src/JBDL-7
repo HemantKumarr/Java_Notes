@@ -1,0 +1,66 @@
+Core java - gives jar(java archive) file
+Advance java - gives war(web archive) file
+
+Spring boot has embedded tomcat server.
+The version specified for starter parent is the spring version. All other starter dependencies like starter-web or starter-security versions is picked
+accordingly .
+
+@SpringBootApplication annotation - manages 300+ annotations. @SpringBootConfiguration, @EnableAutoConfiguration, @ComponentScan are present from 1st version
+of Spring.
+Spring ApplicationContext is where Spring holds instances of objects that it has identified to be managed and distributed automatically. These are called beans.
+@Component is an annotation that allows Spring to detect our custom beans automatically.
+In other words, without having to write any explicit code, Spring will:
+    Scan our application for classes annotated with @Component
+    Instantiate them and inject any specified dependencies into them
+    Inject them wherever needed
+
+@Controller, @Service and @Repository act the same because they are all composed annotations with @Component as a meta-annotation for each of them. They are
+like @Component aliases with specialized uses and meaning outside Spring auto-detection or dependency injection.
+Only the location of the configuration class matters, as component scanning starts from its package by default.
+
+Differences between @Component and @Bean.
+@Component is a class-level annotation, but @Bean is at the method level, so @Component is only an option when a class’s source code is editable. @Bean
+can always be used, but it’s more verbose.
+@Component is compatible with Spring’s auto-detection, but @Bean requires manual class instantiation.
+Using @Bean, decouples the instantiation of the bean from its class definition. This is why we can use it to make third-party classes into Spring beans.
+It also means we can introduce logic to decide which of several possible instance options for a bean to use.
+
+Since it’s not possible to use @Component on classes because we don’t have the source code, we use the @Bean annotation instead.
+
+A bean is an object that is instantiated, assembled, and managed by a Spring IoC container. Otherwise, a bean is simply one of many objects in your application
+All beans are POJOs but not vice versa.
+Beans - all fields are private, no args constructor, implements serializable interface, and getters & setters.
+
+Spring implements transitive dependencies.
+
+<exclusions> is used when we want to use a jar of specific version which is not of version present in starter package.
+e.g.
+<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>com.fasterxml.jackson.core</groupId>
+					<artifactId>jackson-databind</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.4.2</version>
+		</dependency>
+</dependencies>
+
+@Controller is used to mark classes as Spring MVC Controller whereas @RestController is a convenience annotation that does nothing more than adding the
+@Controller and @ResponseBody annotations. @ResponseBody annotation enables automatic serialization of the return object into the HttpResponse.
+
+@Controller
+@ResponseBody
+class Controller{}
+is equivalent to
+ @RestController
+ class RestController{}
+

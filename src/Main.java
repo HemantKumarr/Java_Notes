@@ -13,7 +13,7 @@ public class Main {
         HashMap<String,String> hm = new HashMap<>();
         hm.put("sdf","ewre");
         hm.put("wer","xcvx");
-        System.out.println(hm.keySet() + " " + hm.values());
+        System.err.println(hm.keySet() + " " + hm.values());
     }
 
     private static BigDecimal parse(String amt) {

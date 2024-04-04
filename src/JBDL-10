@@ -1,0 +1,12 @@
+Bean factory design pattern
+Gangs of four design pattern.
+Application context is implementation of bean factory pattern.
+
+2 context are available in spring
+Bean factory
+Application context
+
+AOP - asked in interview Qs - mainly theory not implementation
+
+Number of thread can never go par to number of cores in system.
+

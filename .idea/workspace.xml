@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7da58819-3f85-4e66-a7e0-db5245e1a3b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/JBDL-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JBDL-7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JBDL-8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JBDL-9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBL-11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/DummyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Joins/ThreadJoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Joins/ThreadJoinMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/VolatileThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/NotifyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/WaitRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/HashMap/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/HashMap/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/HashMap/Mapsss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/HashMap/Mapsss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/RollNoComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/RollNoComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/StudentsArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/StudentsArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/ExceptionHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JBDL-1" beforeDir="false" afterPath="$PROJECT_DIR$/src/JBDL-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JBDL-3" beforeDir="false" afterPath="$PROJECT_DIR$/src/JBDL-3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JBDL-4" beforeDir="false" afterPath="$PROJECT_DIR$/src/JBDL-4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JBDL-5" beforeDir="false" afterPath="$PROJECT_DIR$/src/JBDL-5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JBDL-6" beforeDir="false" afterPath="$PROJECT_DIR$/src/JBDL-6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multithreading/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multithreading/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multithreading/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multithreading/TableMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/TableMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multithreading/TableThreadRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/TableThreadRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multithreading/ThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/ThreadMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multithreading/ThreadSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/ThreadSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Overloading/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Overloading/Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/Singletonn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/Singletonn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StreamAPI/StreamMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StreamAPI/StreamMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StreamAPI/StringStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StreamAPI/StringStream.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JBDL-7">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JBDL-1">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JBDL-8">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JBDL-9">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JBDL-10">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JDBL-11">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JBDL-6">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>out</find>
+      <find>detailMessage</find>
+      <find>70</find>
+      <find>run</find>
+      <find>start</find>
+      <find>setP</find>
+      <find>on</find>
+      <find>monitor</find>
+      <find>notify</find>
+      <find>wait</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Interfaces/Perimeter.java" />
+        <option value="$PROJECT_DIR$/src/Interfaces/Test.java" />
+        <option value="$PROJECT_DIR$/src/Interfaces/Square.java" />
+        <option value="$PROJECT_DIR$/src/Interfaces/Area.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/ExceptionHandling.java" />
+        <option value="$PROJECT_DIR$/src/Exceptions/InvalidAgeException.java" />
+        <option value="$PROJECT_DIR$/src/Exceptions/TryFinally.java" />
+        <option value="$PROJECT_DIR$/src/JBDL-2" />
+        <option value="$PROJECT_DIR$/src/Serialization/SerDeser.java" />
+        <option value="$PROJECT_DIR$/src/Exceptions/CustomException.java" />
+        <option value="$PROJECT_DIR$/src/Exceptions/User.java" />
+        <option value="$PROJECT_DIR$/src/Serialization/Transient.java" />
+        <option value="$PROJECT_DIR$/src/Collections/Arraylist.java" />
+        <option value="$PROJECT_DIR$/src/Collections/DynamicArrays.java" />
+        <option value="$PROJECT_DIR$/src/Collections/RollNoComparator.java" />
+        <option value="$PROJECT_DIR$/src/Collections/StudentsArrayList.java" />
+        <option value="$PROJECT_DIR$/src/Singleton/Test.java" />
+        <option value="$PROJECT_DIR$/src/Singleton/Singletonn.java" />
+        <option value="$PROJECT_DIR$/src/Collections/Students.java" />
+        <option value="$PROJECT_DIR$/src/HashMap/Mapsss.java" />
+        <option value="$PROJECT_DIR$/src/HashMap/Employee.java" />
+        <option value="$PROJECT_DIR$/src/JBDL-3" />
+        <option value="$PROJECT_DIR$/src/Collections/HashMap/Mapsss.java" />
+        <option value="$PROJECT_DIR$/src/Collections/HashMap/Employee.java" />
+        <option value="$PROJECT_DIR$/src/JBDL-4" />
+        <option value="$PROJECT_DIR$/src/StreamAPI/StreamMain.java" />
+        <option value="$PROJECT_DIR$/src/StreamAPI/StringStream.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/ThreadSample.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/TableThreadRunnable.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/TableMain.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/ThreadMain.java" />
+        <option value="$PROJECT_DIR$/src/JBDL-5" />
+        <option value="$PROJECT_DIR$/src/Multithreading/MyThread.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/School.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/VolatileThread.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/DummyClass.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/Joins/ThreadJoinDemo.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/Joins/ThreadJoinMain.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/Message.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/WaitRunnable.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/Main.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/NotifyRunnable.java" />
+        <option value="$PROJECT_DIR$/src/JBDL-6" />
+        <option value="$PROJECT_DIR$/src/JBDL-1" />
+        <option value="$PROJECT_DIR$/src/JBDL-7" />
+        <option value="$PROJECT_DIR$/src/JBDL-8" />
+        <option value="$PROJECT_DIR$/src/JBDL-10" />
+        <option value="$PROJECT_DIR$/src/JBDL-9" />
+        <option value="$PROJECT_DIR$/src/JDBL-11" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Java_Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1711522462637" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dummySpringProject" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ThreadJoinMain">
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.MainTest" />
+      <module name="Java_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="School" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.School" />
+      <module name="Java_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.TableMain" />
+      <module name="Java_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadJoinMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.Joins.ThreadJoinMain" />
+      <module name="Java_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.Joins.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadMain" />
+      <module name="Java_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ThreadJoinMain" />
+        <item itemvalue="Application.MainTest" />
+        <item itemvalue="Application.School" />
+        <item itemvalue="Application.ThreadMain" />
+        <item itemvalue="Application.TableMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7da58819-3f85-4e66-a7e0-db5245e1a3b2" name="Default Changelist" comment="" />
+      <created>1704867219518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704867219518</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="aws.explorer" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41207814" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5044405" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Singleton/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Singleton/Singletonn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Collections/StudentsArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Collections/Students.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="304" column="9" selection-start-line="304" selection-start-column="9" selection-end-line="304" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shubham.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="341" column="22" selection-start-line="341" selection-start-column="22" selection-end-line="341" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="426" lean-forward="true" selection-start-line="426" selection-end-line="426" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="77" selection-start-column="77" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Serialization/SerDeser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="52" column="59" lean-forward="true" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4120" column="68" lean-forward="true" selection-start-line="4120" selection-start-column="68" selection-end-line="4120" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="127" column="39" lean-forward="true" selection-start-line="127" selection-start-column="39" selection-end-line="127" selection-end-column="39" />
+          <folding>
+            <element signature="e#3914#3915#0" expanded="true" />
+            <element signature="e#3960#3961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="336" column="21" selection-start-line="336" selection-start-column="21" selection-end-line="336" selection-end-column="21" />
+          <folding>
+            <element signature="e#24331#24332#0" expanded="true" />
+            <element signature="e#24396#24397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Collections/HashMap/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Collections/HashMap/Mapsss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="870" column="36" lean-forward="true" selection-start-line="870" selection-start-column="36" selection-end-line="870" selection-end-column="36" />
+          <folding>
+            <element signature="e#29974#29975#0" expanded="true" />
+            <element signature="e#30017#30018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="109" column="28" lean-forward="true" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="35" column="52" lean-forward="true" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamAPI/StringStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamAPI/StreamMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="30" column="62" selection-start-line="28" selection-start-column="3" selection-end-line="30" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JBDL-4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JBDL-3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/TableThreadRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/TableMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/ThreadSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/ThreadMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JBDL-5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/VolatileThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/School.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/DummyClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="1230" column="31" selection-start-line="1230" selection-start-column="27" selection-end-line="1230" selection-end-column="31" />
+          <folding>
+            <element signature="e#19132#19133#0" expanded="true" />
+            <element signature="e#19175#19176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/Joins/ThreadJoinDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/Joins/ThreadJoinMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/NotifyRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/WaitRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="491" column="55" selection-start-line="491" selection-start-column="55" selection-end-line="491" selection-end-column="55" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JBDL-2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JBDL-1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JBDL-7">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JBDL-8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JBDL-9">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JBDL-10">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JBDL-6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JDBL-11">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Java_Practice</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

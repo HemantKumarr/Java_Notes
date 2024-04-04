@@ -1,0 +1,22 @@
+All Web services are APIs but all APIs are not web services.
+
+In an SOA model, services or modules are shared and reused enterprise-wide, whereas a microservice architecture is built on individual services that function independently.
+REST is the foundation, the set of principles that dictate how applications should communicate over the internet, while RESTful APIs are the concrete realization of those principles, allowing us to create powerful, standardized, and scalable systems.
+
+Stateless vs Stateful
+In programming, "state" refers to the condition of a system, component, or application at a particular point in time.
+State is either maintained on the servers (stateful architecture) or in a separate database outside the servers (stateless architecture).
+The key principle behind something that is stateful is that it has perfect memory or knowledge of previous calls or requests, while something that is stateless has no memory or knowledge of previous calls or requests.
+
+Spring is modular in approach.
+
+By default bean scope is singleton
+Various bean scopes
+    singleton
+    prototype
+    request
+    session
+    application
+    websocket
+
+

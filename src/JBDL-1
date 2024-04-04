@@ -13,3 +13,69 @@ Just In TIme(JIT) Compilation
 Garbage Collection
 Strong Typed
 Exception Handling
+
+Everything is an object in java however we also have primitive data types like int, float etc which are not objects.
+
+public static void main(String[] args){} - can also be declared as   static public void main(String[] args){}
+This method needs to be static since static keyword tells that a particular variable/method belongs to a class. Since JVM needs to call
+main() method (like HelloWorld.main() - ClassName followed by method name), it can call without creating its object.
+main() is declared as static because it must be called before any objects exist.
+
+Methods declared as static have several restrictions:
+• They can only directly call other static methods.
+• They can only directly access static data.
+• They cannot refer to this or super in any way.
+Static variable/method can be accessed by class name without creating its object.
+To access non-static variables/methods, object needs to be created.
+
+No. Static methods in Java cannot be overridden. This is because static methods are not associated with the instance of a class, but with the class itself.
+Therefore, when a subclass inherits a static method from its parent class, it cannot modify the behavior of the static method in any way
+
+A static method can only access static data members and static methods of another class or the same class but cannot access non-static methods and variables.
+Also, a static method can rewrite the values of any static data member.
+A non-static method can access static data members and static methods as well as non-static members and methods of another class or the same class, and also
+can change the values of any static data member. All others instances can see the effect of change in static data members.
+
+If a method uses instance vars or instance methods then it should be non-static/instance method else static method.
+
+main() method can be overloaded but JVM will always look for - public static void main(String[] args) method.
+There can be methods like   public static void main(String[] args){}   and   public static void main(int a)   but only 1st method will be called by JVM to
+begin execution.
+
+FINAL
+The final keyword is used to indicate that a variable, method, or class cannot be modified or extended.
+Final variables: When a variable is declared as final, its value cannot be changed once it has been initialized. This is useful for declaring constants or other values that should not be modified.
+Final methods: When a method is declared as final, it cannot be overridden by a subclass. This is useful for methods that are part of a class’s public API and should not be modified by subclasses.
+Final classes: When a class is declared as final, it cannot be extended by a subclass. This is useful for classes that are intended to be used as is and should not be modified or extended.
+
+A final variable is called a blank final variable if it is not initialized while declaration.
+    A blank final variable can be initialized inside an instance-initializer block or inside the constructor. If you have more than one constructor in your class then it must be initialized in all of them, otherwise, a compile-time error will be thrown.
+    A blank final static variable can be initialized inside a static block.
+
+
+
+Inheritance
+To access data members and methods of parent class use super keyword if the data members or methods are of same name as in subclass.
+In static method we can't use this keyword. Since this keyword is the current instance of the class and static methods belong to the class
+and not the instance of the class.
+super() must be the first statement executed in a subclass constructor
+
+Method overloading
+area(float radius)
+area(int len, int width)
+area(int side)
+
+Method overriding - Run Time Polymorphism
+When a method is defined in parent and also in child class and Parent p = new Child(); p.method() will call the method in child class.
+Child class has overridden the method defined in parent class. Since objects are created at run time (Run time nature of object loader),
+its called run time polymorphism.
+Method overriding - happens for non-static methods not for static methods since static methods belongs to the class and not to the object/instance.
+
+A class can not inherit from multiple class i.e. multiple inheritance not allowed in Java. Ambiguity when same methods present in both the parents.
+
+Every class extends Object class.  methods of object class - wait, notify, hashcode, equals, toString etc.
+
+Why use interface when we have abstract class? - using chatGPT
+Java doesn't support multiple class inheritance. So you can implement multiple interface. more importantly you can implement interface and extend other class at the same time. If you used abstract class in place of interface which would not be possible.
+If you are creating functionality that will be useful across a wide range of objects, then you must use an interface. Abstract classes, at the end of the day, should be used for objects that are closely related. But the interfaces are best suited for providing common functionality to unrelated cases.
+

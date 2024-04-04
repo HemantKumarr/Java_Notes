@@ -1,0 +1,61 @@
+Abstract methods - only declaration not body
+Interface - group of such abstract methods
+
+To declare an interface, use the interface keyword. It is used to provide total abstraction.
+That means all the methods in an interface are declared with an empty body (i.e. abstract method) and are public and all fields are public, static, and final by default.
+A class that implements an interface must implement all the methods declared in the interface. To implement the interface, use the implements keyword.
+
+Since java does not support multiple inheritances in the case of class, by using an interface it can achieve multiple inheritances.
+Any class can extend only 1 class, but can any class implement an infinite number of interfaces.
+
+Addition in Interfaces in JDK8
+1. We can now add default implementation for interface methods. Classes which want to provide its implementation can implement the same in their class. Classes which
+that don't want to provide implementation, will implement the default method provided in interface.
+2. We can now define static methods in interfaces that can be called independently without an object. These methods are not inherited and are called by their
+interface name i.e. (interfaceName.methodName).
+
+One interface can inherit another by the use of keyword extends. When a class implements an interface that inherits another interface, it must provide
+an implementation for all methods required by the interface inheritance chain else that class must be declared as abstract .
+
+From Java 9 onwards, interfaces can contain the following also:
+    Static methods
+    Private methods
+    Private Static methods
+
+
+Exception Handling
+1. Checked exceptions - IO, SQL exception, File not found, Class Not Found etc
+2. Unchecked exception - NullPointer, Index out of bound exception etc
+
+A checked exception is valid only when there is code which is trying to throw it. If the code in try block is not reading any file and we add FileNotFoundException
+in catch block, it will throw a compiler error.
+Use of finally block??
+
+Throws keyword tells the caller func that the function which you are calling can throw this exception.
+
+Exceptions class extends Throwable class.
+Exception is superclass of all the exceptions hence it can catch all the exceptions. Thats why parent reference is used to store child object
+(i.e. Parent p = new Child();) since we dont know what kind of exception will be thrown. It can store object of NullPointerException, ArithmeticException etc.
+In finally block - we close db connection, stop reading from the file etc.
+
+We can have multiple catch blocks but Exception has to be in the last catch block since it is superclass of all the exceptions thrown.
+When you use multiple catch statements, it is important to remember that exception subclasses must come before any of their superclasses. This is because a
+catch statement that uses a superclass will catch exceptions of that type plus any of its subclasses. Thus, a subclass would never be reached if it came after
+its superclass. Further, in Java, unreachable code is an error.
+For e.g. Since ArithmeticException is a subclass of Exception, the first catch statement will handle
+         all Exception-based errors, including ArithmeticException. This means that the second
+         catch statement will never execute. To fix the problem, reverse the order of the catch
+         statements.
+
+System.exit(0) - tells the JVM to terminate the execution.
+As we know, a final block will always execute even there is an exception occurred in a try block, except System.exit() it will execute always.
+A final block will always execute even though the method has a return type and try block returns some value.
+
+User Defined Custom Exception class should extend Exception class. We can override toString method so that it returns a string containing a description of the
+exception as per our need.
+
+Errors
+exit(0), debugging jvm errors, adjust memory of jvm, default memory allocated to jvm
+
+
+

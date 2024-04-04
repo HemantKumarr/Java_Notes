@@ -1,0 +1,64 @@
+@PathVariable annotation - Is used to handle template variables in the request URI mapping, and set them as method parameters.
+
+@GetMapping("/profile/{name}")
+    public String test(@PathVariable String name){
+        return "PathVariable - Hello " + name;
+    }
+
+If the path variable name is different, we can specify it in the argument of the @PathVariable annotation:
+@GetMapping("/api/employeeswithvariable/{id}")
+public String getEmployeesByIdWithVariableName(@PathVariable("id") String employeeId) {
+    return "ID: " + employeeId;
+}
+
+We can also handle more than one @PathVariable parameter using a method parameter of type java.util.Map<String, String>
+@GetMapping("/api/employeeswithmapvariable/{id}/{name}")
+public String getEmployeesByIdAndNameWithMapVariable(@PathVariable Map<String, String> pathVarsMap) {
+    String id = pathVarsMap.get("id");
+    String name = pathVarsMap.get("name");
+   }
+
+We can set the required property of @PathVariable to false to make it optional.
+public String getEmployeesByIdWithRequiredFalse(@PathVariable(required = false) String id)
+
+When using a Spring @PathVariable with a @RequestMapping to map the end of a request URI that contains a dot, we’ll end up with a partial value in our variable, truncated at the last dot.
+Solution
+Modify our @PathVariable definition by adding a regex mapping. Thereby any dot, including the last one, will be considered as part of our parameter
+@GetMapping("/example/{firstValue}/{secondValue:.+}")
+By adding a slash at the end of our @PathVariable.
+@GetMapping("/example/{firstValue}/{secondValue}/")
+
+If we want to change the behavior at a global MVC level, we need to provide a custom configuration. For this purpose, we can extend the WebMvcConfigurationSupport and override its getPathMatchConfigurer() method to adjust a PathMatchConfigurer.
+
+@RequestParam is used to extract query parameters, form parameters, and even files from the request.
+@GetMapping("/api/foos")
+@ResponseBody
+public String getFoos(@RequestParam String id) {
+    return "ID: " + id;
+}
+
+http://localhost:8080/spring-mvc-basics/api/foos?id=abc
+----
+ID: abc
+
+we can configure the @RequestParam name using the name attribute
+public String addFoo(@RequestParam(name = "id") String fooId, @RequestParam String name) {}
+
+We can also have multiple parameters without defining their names or count by just using a Map:
+public String updateFoos(@RequestParam Map<String,String> allParams) {}
+
+A single @RequestParam can have multiple values:
+public String getFoos(@RequestParam List<String> id) {
+
+@RestController converts a java object into JSON format using libraries like GSON, Jackson etc.
+that keyword in java
+
+Entity - something we save in DB
+Model(DTO)- For each request there should be a Request Model and corresponding to it there should be a Response Model.
+Spring supports following HTTP methods - GET, POST, HEAD, OPTIONS, PUT, PATCH, DELETE, TRACE.
+
+We mark beans with @Service to indicate that they’re holding the business logic. Besides being used in the service layer, there isn’t any other special use for this annotation.
+
+curl command
+
+
