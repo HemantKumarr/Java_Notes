@@ -1,0 +1,38 @@
+print pyramid
+anagram
+collections interface hierarchy
+SQL Query to Find Second Highest Salary
+    select *from employee
+    group by salary
+    order by  salary desc limit 1,1;
+SQL Query to find number of orders done per day every day in last month
+Multithreading - process vs thread, inter-thread communication, different states of thread
+IoC principle
+
+Java IO vs NIO
+
+Java IO 	                                Java NIO
+Java IO stands for Java Input Output 	    Java NIO stands for Java New Input Output
+Java IO operates inside java.io package 	Java NIO operates inside java.nio package
+Java IO is Stream oriented 	                Java NIO is Buffer oriented
+Blocking IO operation 	                    Non-blocking IO operation
+Channels are not available 	                Channels are available
+It deals with data in stream 	            It deals with data in blocks
+Does not contain the concept of Selectors 	Contains the concept of Selectors
+
+vector vs arraylist
+ArrayList is fast since it is not synchronized. ArrayList performance is high . Multiple threads is allowed
+Vector performance is low since it is synchronized. only one threads are allowed .
+
+eager vs lazy loading
+
+
+Integer num1 = 100;
+        Integer num2 = 100;
+        Integer num3 = 128;
+        Integer num4 = 128;
+ num1 = num2 but num3 != num4
+because For values within the range of -128 to 127, Java uses a cache for Integer objects to optimize memory usage. When comparing two Integer objects within this range, the “==” operator will return true if they have the same value, as they are referring to the same cached object.
+
+However, for values outside this range, Java creates separate Integer objects for each value. When comparing two Integer objects outside the range of -128 to 127 using the “==” operator, it will return false, even if they have the same value. This is because they are distinct objects in memory.
+

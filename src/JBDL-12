@@ -1,0 +1,11 @@
+For select query we use executeQuery() method which returns data of ResultSet type.
+A ResultSet cursor is initially positioned before first row. It is of 3 types
+    TYPE_FORWARD_ONLY (default type).
+Type_Scroll_insensitive and sensitive - sensitive to the changes in the data in resultSet
+
+ResultSet.Concur_Read_Only - when we only want to read the data and to update anything in the result set.
+For insert, update and delete we use executeUpdate() method.
+
+
+
+

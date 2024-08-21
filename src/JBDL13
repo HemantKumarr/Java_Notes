@@ -1,0 +1,40 @@
+Hibernate ORM
+Why ORM
+ORM stands for Object-Relational Mapping (ORM) is a programming technique for converting data between relational databases and object oriented programming languages such as Java, C#, etc.
+
+Advantages of ORM
+Transaction management and automatic key generation.
+Hides details of SQL queries from OO logic.
+Uses HQL.
+Based on JDBC 'under the hood.'
+Entities based on business concepts rather than database structure.
+Fast development of application.
+
+H2 - in memory database for java
+Hibernate maps Java classes to database tables and from Java data types to SQL data types and relieves the developer from 95% of common data persistence related programming tasks.
+
+Hibernate - Architecture
+Hibernate uses various existing Java APIs, like JDBC, Java Transaction API(JTA), and Java Naming and Directory Interface (JNDI). JDBC provides a rudimentary level of abstraction of functionality common to relational databases, allowing almost any database with a JDBC driver to be supported by Hibernate. JNDI and JTA allow Hibernate to be integrated with J2EE application servers.
+
+The Configuration object is the first Hibernate object you create in any Hibernate application. It is usually created only once during application initialization. It represents a configuration or properties file required by the Hibernate.
+The Configuration object provides two keys components −
+    Database Connection − This is handled through one or more configuration files supported by Hibernate. These files are hibernate.properties and hibernate.cfg.xml.
+    Class Mapping Setup − This component creates the connection between the Java classes and database tables.
+
+Configuration object is used to create a SessionFactory object which in turn configures Hibernate for the application using the supplied configuration file and allows for a Session object to be instantiated. The SessionFactory is a thread safe object and used by all the threads of an application.
+The SessionFactory is a heavyweight object; it is usually created during application start up and kept for later use. You would need one SessionFactory object per database using a separate configuration file. So, if you are using multiple databases, then you would have to create multiple SessionFactory objects.
+
+A Session is used to get a physical connection with a database. The Session object is lightweight and designed to be instantiated each time an interaction is needed with the database. Persistent objects are saved and retrieved through a Session object.
+The session objects should not be kept open for a long time because they are not usually thread safe and they should be created and destroyed them as needed.
+
+A Transaction represents a unit of work with the database and most of the RDBMS supports transaction functionality.
+
+Query objects use SQL or Hibernate Query Language (HQL) string to retrieve data from the database and create objects. A Query instance is used to bind query parameters, limit the number of results returned by the query, and finally to execute the query.
+
+
+
+
+
+
+
+

@@ -2,43 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7da58819-3f85-4e66-a7e0-db5245e1a3b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JBDL-10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JBDL-7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JBDL-8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JBDL-9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBL-11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/DummyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Joins/ThreadJoinDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Joins/ThreadJoinMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/VolatileThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/NotifyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Wait_Notify_NotifyAll/WaitRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/HashMap/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/HashMap/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/HashMap/Mapsss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/HashMap/Mapsss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/RollNoComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/RollNoComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/StudentsArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/StudentsArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/ExceptionHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JBDL-1" beforeDir="false" afterPath="$PROJECT_DIR$/src/JBDL-1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JBDL-3" beforeDir="false" afterPath="$PROJECT_DIR$/src/JBDL-3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JBDL-4" beforeDir="false" afterPath="$PROJECT_DIR$/src/JBDL-4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JBDL-5" beforeDir="false" afterPath="$PROJECT_DIR$/src/JBDL-5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JBDL-6" beforeDir="false" afterPath="$PROJECT_DIR$/src/JBDL-6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/School.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/TableMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/TableMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/TableThreadRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/TableThreadRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/ThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/ThreadMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/ThreadSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/ThreadSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Overloading/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Overloading/Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Singletonn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/Singletonn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StreamAPI/StreamMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StreamAPI/StreamMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StreamAPI/StringStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StreamAPI/StringStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HSCInterQs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JBDL-12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JBDL13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JBDL-7">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="935">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -61,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JBDL-1">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="1037">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -70,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JBDL-8">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="918">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -79,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JBDL-9">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -88,17 +55,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JBDL-10">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JDBL-11">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JBDL-12">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JBDL13">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JDBL-11">
+        <entry file="file://$PROJECT_DIR$/src/HSCInterQs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -106,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JBDL-6">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -142,9 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Interfaces/Perimeter.java" />
-        <option value="$PROJECT_DIR$/src/Interfaces/Test.java" />
-        <option value="$PROJECT_DIR$/src/Interfaces/Square.java" />
         <option value="$PROJECT_DIR$/src/Interfaces/Area.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/ExceptionHandling.java" />
@@ -193,6 +184,9 @@
         <option value="$PROJECT_DIR$/src/JBDL-10" />
         <option value="$PROJECT_DIR$/src/JBDL-9" />
         <option value="$PROJECT_DIR$/src/JDBL-11" />
+        <option value="$PROJECT_DIR$/src/JBDL-12" />
+        <option value="$PROJECT_DIR$/src/JBDL13" />
+        <option value="$PROJECT_DIR$/src/HSCInterQs" />
       </list>
     </option>
   </component>
@@ -210,6 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,12 +222,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1711522462637" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dummySpringProject" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1724175650698" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -373,36 +367,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Singleton/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Singleton/Singletonn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="27" selection-end-column="3" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collections/StudentsArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Collections/Students.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -730,52 +694,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JBDL-1">
+    <entry file="file://$PROJECT_DIR$/src/JBDL-7">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="935">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JBDL-7">
+    <entry file="file://$PROJECT_DIR$/src/JBDL-1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="1037">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JBDL-8">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="918">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JBDL-9">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JBDL-10">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JBDL-6">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JDBL-11">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JBDL-6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JBDL-12">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JBDL13">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HSCInterQs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
