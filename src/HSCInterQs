@@ -5,6 +5,16 @@ SQL Query to Find Second Highest Salary
     select *from employee
     group by salary
     order by  salary desc limit 1,1;
+
+Write an SQL query to determine the 5th highest GPA without using LIMIT keyword.
+
+SELECT * FROM Student s1 
+WHERE 4 = (
+    SELECT COUNT(DISTINCT (s2.GPA)) 
+    FROM Student s2
+    WHERE s2.GPA >= s1.GPA
+);
+
 SQL Query to find number of orders done per day every day in last month
 Multithreading - process vs thread, inter-thread communication, different states of thread
 IoC principle
